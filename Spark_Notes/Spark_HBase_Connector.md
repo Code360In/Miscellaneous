@@ -16,7 +16,8 @@ Note: Apache Phoenix and its connector for Apache Spark provide another (alterna
   - A Spark connector for Apache Phoenix is available, see [phoenix-connectors](https://github.com/apache/phoenix-connectors)
     - the connector for Spark 2.x is available on maven central, for Spark 3.x I had to compile from source (as of December 2022)
 
-### Spark-HBae connector configuration and setup
+---
+## Spark-HBase connector configuration and setup
 **Client-side** (Spark) configuration:
   - You need the HBase client configuration file `hbase-site.xml` 
   - This points to the HBase you want to connect to  
