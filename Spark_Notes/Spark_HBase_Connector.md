@@ -113,8 +113,8 @@ Note: Apache Phoenix and its connector for Apache Spark provide another (alterna
 ## Spark 3.x
 
 ###  Use the Apache Spark HBase connector with Spark 3.x
-- Build the connector from the Github repo [Apache HBase Connectors](https://github.com/apache/hbase-connectors)
-  - As of December 2021, the release of hbase-connectors in maven central is only available for Scala 2.11 and cannot be used with Spark 3
+- Build the connector from the GitHub repo [Apache HBase Connectors](https://github.com/apache/hbase-connectors)
+  - As of December 2022, the hbase-connectors releases in maven central are only available for Scala 2.11 and cannot be used with Spark 3.x
   - The connector has to be compiled from source for Spark 3.x, see also [HBASE-25326 Allow hbase-connector to be used with Apache Spark 3.0 ](https://issues.apache.org/jira/browse/HBASE-25326)
   
 - Build as in this example (customize HBase, Spark and Hadoop versions, as needed):
