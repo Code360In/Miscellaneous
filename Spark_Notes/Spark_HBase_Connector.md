@@ -126,8 +126,8 @@ Note: Apache Phoenix and its connector for Apache Spark provide another (alterna
   ```
   # Build from source or use the pre-compiled JARs
   # Stopgap, files served from my homepage
-  JAR1 = http://canali.web.cern.ch/res/hbase-spark-1.0.1_spark-3.2.0-hbase-2.4.9-cern1_1.jar
-  JAR2 = http://canali.web.cern.ch/res/hbase-spark-protocol-shaded-1.0.1_spark-3.2.0-hbase-2.4.9-cern1_1.jar
+  JAR1=http://canali.web.cern.ch/res/hbase-spark-1.0.1_spark-3.2.0-hbase-2.4.9-cern1_1.jar
+  JAR2=http://canali.web.cern.ch/res/hbase-spark-protocol-shaded-1.0.1_spark-3.2.0-hbase-2.4.9-cern1_1.jar
 
   bin/spark-shell --master yarn --num-executors 1 --executor-cores 2 \
   --jars $JAR1,$JAR2 --packages org.apache.hbase:hbase-shaded-mapreduce:2.4.9
